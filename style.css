@@ -1,7 +1,12 @@
 
-#First{
-height: 99vh;
+body{
+height: 100vh;
 background-color: blueviolet;
+text-align: center;
+}
+#count{
+     color: #fff; 
+    font-size: 18px;
 }
 
 
@@ -20,8 +25,12 @@ form{
     background-color: #fff;
 padding: 10px;
     width: 18%;
+    margin-left:10px ;
 }
 
+.close{
+    display: none;
+}
 .all-box{
 display: flex;
  align-self: flex-start;
